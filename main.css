@@ -1,3 +1,6 @@
+/******************************************
+/* STYLE RESET
+/*******************************************/
 /* Style Reset */ 
 html {
     box-sizing: border-box;
@@ -23,6 +26,10 @@ html {
     height: auto;
   }
 
+/******************************************
+NAV BAR
+/*******************************************/
+
 /* Navigation Bar */ 
 body >section >nav >ul {
     display: flex;
@@ -37,6 +44,40 @@ a{
     text-decoration: none;
     color:black;
 }
+
+
+/******************************************
+MODEL1 + TEXTBOX OVERLAY
+/*******************************************/
+.main {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 4rem;
+  left: 100px;
+  background-color: black;
+  color: white;
+  padding: 3rem;
+  line-height: 3rem;
+}
+button{
+  padding:1rem;
+  border-radius: .5rem;
+}
+
+ h4, #main p{
+  text-transform: uppercase;
+}
+
+span{
+font-size: 3rem;
+}
+/******************************************
+SERVICES OFFERED SECTION
+/*******************************************/
 
 #wrap{
     display:flex;
