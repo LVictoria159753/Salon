@@ -31,9 +31,11 @@ body >section >nav >ul {
     justify-content: space-between;
     padding:1%;
 
+
 }
 a{
     text-decoration: none;
+    color:black;
 }
 
 #wrap{
@@ -48,14 +50,34 @@ a{
   
 }
 
-article h3{
+article h3, h2{
     text-transform: uppercase;
     
 }
-article{
+article, h2, h2>p{
     line-height: 3rem;
     padding: 1rem;
     width:25%;
     
 
+}
+
+/* Momentum */ 
+#momentum{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width:100vh;
+  height:500px;
+
+}
+
+/* Beauticians section*/ 
+
+#beauticians{
+  width: 33%;
+  border: 1px green solid;
+  display: flex;
+  justify-content: space-around;
 }
