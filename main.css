@@ -1,0 +1,55 @@
+/* Style Reset */ 
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Navigation Bar */ 
+body >section >nav >ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    padding:1%;
+
+}
+a{
+    text-decoration: none;
+}
+
+#wrap{
+    display:flex;
+    flex-direction: row;
+    font-size: 1rem;
+    line-height: 1rem;
+    border:1px solid green;
+    height: 400px;
+}
+
+article h3{
+    text-transform: uppercase;
+    
+}
+article{
+    line-height: 3rem;
+    padding: 1rem;
+}
