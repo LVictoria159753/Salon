@@ -52,7 +52,33 @@ MODEL1 + TEXTBOX OVERLAY
 .main {
   position: relative;
 }
+.text-box-header {
+  position: absolute;
+  top: 15%;
+  left: 70px;;
+  background-color: grey;
+  color: white;
+  font-size: 5rem;
+  width: 50%;
+  text-transform: uppercase;
 
+}
+.text-box-header p{
+  font-size: 1rem;
+}
+/* Text Box Mini*/
+.text-box-mini{
+  position: absolute;
+  top: 55%;
+  left: 70px;
+  background-color: black;
+  color: white;
+  line-height: 4rem;
+  font-size: 1rem;
+  width: 15%;
+  padding: 1rem 2rem;
+
+}
 /* Bottom right text */
 .text-block {
   position: absolute;
