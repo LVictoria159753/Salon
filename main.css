@@ -281,7 +281,6 @@ input[type=reset], input[type=submit], textarea#message{
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-  gap:10px
 }
 
 textarea#message{
@@ -295,5 +294,10 @@ display:flex;
 flex-direction: row;
 width:20%;
 margin: 8px 0;
+margin-left: 30px;
+
+}
+.divider{
+  width:5px;
 
 }
