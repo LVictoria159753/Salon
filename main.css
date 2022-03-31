@@ -161,9 +161,8 @@ Momentum Section
   background-color: rgb(245, 228, 228)
 
 }
-.momentumParagraph p,{
-  width:10%;
-
+.momentumParagraph p{
+  width:50%;
 }
 
 /******************************************
