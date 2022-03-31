@@ -68,9 +68,8 @@
     <section id="momentum">
         <div class="momentumParagraph">
             <h3 class="para">Make Your Own Momentum</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus debitis velit veniam ratione a ipsam ab obcaecati provident consequatur similique nihil, vitae quia sequi atque, odit autem fugiat, dignissimos officia.</p>
-        </div>
-        <img src="videoimg.png" alt="hair styling video">
+            <div>
+        <a href=""><img src="videoimg.png" alt="hair styling video"></a>
     </section>
    
     <section id="Beauticians">
@@ -109,11 +108,52 @@
             </div>
         </section>
     </section>
-    <section>
-        <h2>Our LookBook</h2>
-        a
+
+    <div id="look"><h2 id="lookbookHeader">Our LookBook</h2></div>
+    <section id="lookbook">
+       
+        <div class="column">
+            <a href="#"><img src="Model1.2.jpg" alt="Model" class="cropped"></a>
+            <a href="#"><img src="makeup-upsplash.jpg" alt="Model" class="cropped2"></a>
+        </div>
+        <div class="column">
+    
+            <a href="#"><img src="makeup-upsplash.jpg" alt="Model" class="cropped2"></a>
+            <a href="#"><img src="Model1.2.jpg" alt="Model" class="cropped"></a>
+        </div>
+        <div class="column">
+            <a href="#"><img src="Model1.2.jpg" alt="Model" class="cropped"></a>
+            <a href="#"><img src="makeup-upsplash.jpg" alt="Model" class="cropped2"></a>
+        </div>
     </section>
     
-    
+    <section>
+              <form name="contact" method="POST" data-netlify="true">
+                  <h2 class="main-contact">Connect With Me</h2>
+                  <div class="fields">
+                      <div class="nameField">
+                          <label for="name"></label>
+                          <input type="text" name="name" id="name"placeholder="Your Name" />
+                      </div>
+                      <div class="emailField">
+                          <label for="email"></label>
+                          <input type="text" name="email" id="email"placeholder="Your Message" />
+                      </div> 
+                      <div class="subjectField">
+                          <label for="subhect"></label>
+                          <input type="text" name="subject" id="subject"placeholder="Subject line" />
+                      </div> 
+                      <div class="messageField">
+                          <label for="message" placeholder="Message"></label>
+                          <textarea name="message" id="message" rows="4"placeholder="Message"></textarea>
+                      </div>
+                 
+                  <ul class="actions">
+                      <li><input type="submit" value="Send Message" class="submitprimary" /></li>
+                      <li><input type="reset" value="Reset" class="submitprimary"/></li>
+                  </ul>
+             
+              </form>
+    </section>
 </body>
 </html>

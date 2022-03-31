@@ -163,10 +163,18 @@ Momentum Section
 }
 .momentumParagraph p{
   width:50%;
+
+}
+
+h3.para{
+  font-size: 3rem;
+  height: 100px;
+  line-height: normal;
+
 }
 
 /******************************************
-Momentum Section
+Beauticians
 /*******************************************/
 
 /* Beauticians section*/ 
@@ -190,4 +198,51 @@ Momentum Section
 }
 .hover:hover{
 background-color: black;
+}
+
+/******************************************
+LOOKBOOK
+/*******************************************/
+
+#lookbook{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:700px;
+  
+}
+
+.cropped {
+  width: 200px; /* width of container */
+  height: 200px; /* height of container */
+  overflow: hidden;
+  border: 4px solid rgb(245, 127, 127);
+  object-fit:cover;
+}
+
+.cropped img {
+  margin: -10px 0px 0px -100px;
+}
+
+.cropped2{
+  width: 200px; /* width of container */
+  height: 400px; /* height of container */
+  overflow: hidden;
+  border: 4px solid rgb(245, 127, 127);
+  object-fit:cover;
+}
+
+.column{
+display: flex;
+flex-direction: column;
+padding:1rem;
+
+
+}
+#look{
+  margin-top: 200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
 }
