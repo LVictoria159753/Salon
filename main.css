@@ -273,7 +273,7 @@ input[type=text],input[type=textarea] {
   transition: 0.5s;
   outline: none;
 }
-input[type=reset], input[type=submit]{
+input[type=reset], input[type=submit], textarea#message{
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -283,8 +283,17 @@ input[type=reset], input[type=submit]{
   outline: none;
   gap:10px
 }
+
+textarea#message{
+  border: 3px solid rgb(238, 237, 237);
+
+  width: 50%;
+
+}
 .actions{
 display:flex;
 flex-direction: row;
 width:20%;
+margin: 8px 0;
+
 }
