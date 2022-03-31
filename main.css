@@ -47,7 +47,11 @@ a{
     text-decoration: none;
     color:black;
 }
+a:hover{
 
+  transition: background-color .5s;
+  border-bottom: 4px solid powderblue;
+}
 
 /******************************************
 MODEL1 + TEXTBOX OVERLAY
@@ -208,7 +212,8 @@ LOOKBOOK
   display:flex;
   justify-content: center;
   align-items: center;
-  height:700px;
+  height:700px; 
+ margin-bottom:  100px ;
   
 }
 
@@ -238,13 +243,15 @@ flex-direction: column;
 padding:1rem;
 
 
+
 }
 #look{
-  margin-top: 200px;
+  margin-top: 100px;
   display:flex;
   justify-content: center;
   align-items: center;
   font-size: 1.3rem;
+
 }
 
 /******************************************
@@ -256,9 +263,7 @@ CONTACT
   padding:1rem;
 }
 
-label, input, textarea,{
-margin:2rem;
-}
+
 
 input[type=text]:focus {
   border: 3px solid #555;
