@@ -181,3 +181,14 @@ Momentum Section
   color:white;
   padding: 20px;
 }
+
+/* Hover effect*/
+
+.hover {
+  background-color: powderblue;
+  transition: background-color .5s;
+  height: 300px;
+}
+.hover:hover{
+background-color: black;
+}
